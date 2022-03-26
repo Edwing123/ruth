@@ -1,9 +1,13 @@
 package ruth
 
-func WhoIsRuth() string {
-	return "Ruth is a girl I used to chat with."
+type Message struct {
+	Value string
 }
 
-func WhoAmI() string {
-	return "I am Edwin Garcia."
+func WhoIsRuth() *Message {
+	return &Message{"Ruth is a girl I used to chat with."}
+}
+
+func WhoAmI() *Message {
+	return &Message{"I am Edwin Garcia."}
 }
