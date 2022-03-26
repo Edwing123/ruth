@@ -9,5 +9,5 @@ func WhoIsRuth() *Message {
 }
 
 func WhoAmI() *Message {
-	return &Message{"I am Edwin Garcia."}
+	return &Message{"I just don't know"}
 }
